@@ -1,5 +1,6 @@
 # 1、项目介绍
 一套简易的sz-8辉光管驱动电路，兼容qs30-1型号，采用成品180V升压模块和驱动ic，主控为esp32。
+<img src=https://github.com/xiaocainiao11111/Glow_Tube/blob/main/images/d279668a0749e85de30a161ba6a3003.jpg width=60% />
 # 2、文件夹介绍
 software：esp32源码
 
