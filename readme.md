@@ -1,8 +1,8 @@
 # 2023/4/8 更新V2：
-- 新增pcb，板载RGB，5V转12V电路，实现一根typec线供电
+- 新增pcb，板载RGB，5V转12V电路，实现一根typec线供电，优化了10UH的封装错误
 - 代码优化（V1不兼容）
 - 主控换为ESP32-WROOM-32E
-
+- forker强烈建议自行增加一个辉光管阳极的开关，调试的时候我都被电麻了
 
 <img src=https://github.com/xiaocainiao11111/Glow_Tube/blob/main/images/V2-1.jpg width=50% />
 
