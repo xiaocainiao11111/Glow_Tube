@@ -1,14 +1,24 @@
+# 2023/4/8 更新V2：
+- 新增pcb，板载RGB，5V转12V电路，实现一根typec线供电
+- 代码优化（V1不兼容）
+- 主控换为ESP32-WROOM-32E
+
+
+<img src=https://github.com/xiaocainiao11111/Glow_Tube/blob/main/images/V2-1.jpg width=50% />
+
+
 # 1、项目介绍
 一套简易的sz-8辉光管驱动电路，兼容qs30-1型号，采用成品180V升压模块和驱动ic，主控为esp32，难度不大。
 
 <img src=https://github.com/xiaocainiao11111/Glow_Tube/blob/main/images/d279668a0749e85de30a161ba6a3003.jpg width=40% />
 
 # 2、文件夹介绍
-software：esp32源码
+- software：esp32源码
 
-hardware：bom表，原理图，实物图
+- hardware：bom表，原理图，实物图
 
-images：readme图片
+- images：readme图片
+  
 # 3、真爱党复刻说明
  ### 1、高压危险！！高压危险！！一定要检查接线，20k电阻一定要接，单片机的gnd可以与辉光管部分隔离（击穿了至少保住mcu。。）
 2、hardware/bom里180v升压模块和驱动ic的链接详情一定要看一下，看完就会接线和写代码了，发现自己的管有个别数字显示不出就修改对应数字的高低电平。
